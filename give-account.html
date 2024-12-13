@@ -1,0 +1,66 @@
+<! DOCTYPE HTML>
+    <html lang="ar, en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>بيع حساب</title>
+        <meta name="description" content="متجر الكتروني لشحن الالعاب الاونلاين و بيع و شراء حسابات ببجي">
+        <link rel="stylesheet" href="style-four.css">
+    </head>
+    <body>
+        <div class="head">
+            <div class="header">
+                <h1>بيع حساب</h1>
+            </div>
+
+            <div class="links-slider">
+                <a href="service.html">الخدمات</a> •
+                <a href="buy-service.html">شراء خدمه</a> •
+                <a href="index.html">الرئيسيه</a> •
+                <a href="buy-account.html"> شراء حساب </a>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="note">
+                <p>
+                    ادخل البيانات المطلوبه في الاسفل و عند تأكيدها سيتم ارسالها الى المالك و سيقوم بالتواصل معك على واتساب لتأكيد عملية البيع.
+                </p>
+            </div>
+
+
+            <form id="give-account">
+                <label for="FullName"> اسمك بالكامل:</label>
+                <input type="text" id="FullName" name="FullName" required><br><br>
+
+                <label for="Phone"> رقم هاتفك:</label>
+                <input type="number" id="Phone" name="Phone" required><br><br>
+
+                <label for="Game">نوع الحساب:</label>
+                <select id="Game" name="Game" required>
+                    <option value="" disabled selected> --- اخـتـر --- </option>
+                    <option value="FreeFire"> حساب فري فاير </option>
+                    <option value="Pubg"> حساب ببجي </option>
+                </select><br><br>
+
+                <label for="Level"> مستوى الحساب:</label>
+                <input type="number" id="Level" name="Level" required><br><br>
+
+                <label for="Price"> السعر المتوقع:</label>
+                <input type="number" id="Price" name="Price" required><br><br>
+
+                <label for="Notes"> مميزات و ممتلكات الحساب:</label>
+                <textarea id="Notes" name="Notes" required></textarea><br><br>
+
+                <button class="confirm"> تأكيد البيع </button>
+            </form>
+        </div>
+
+
+        <footer>
+            &copy; 2024 جميع الحقوق محفوظه - Isolo Store
+        </footer>
+    </body>
+    <script src="give.js"></script>
+</html>

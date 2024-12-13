@@ -1,0 +1,69 @@
+<! DOCTYPE HTML>
+    <html lang="ar, en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>شراء حساب</title>
+        <meta name="description" content="متجر الكتروني لشحن الالعاب الاونلاين و بيع و شراء حسابات ببجي">
+        <link rel="stylesheet" href="style-five.css">
+    </head>
+    <body>
+        <div class="head">
+            <div class="header">
+                <h1>شراء حساب</h1>
+            </div>
+
+            <div class="links-slider">
+                <a href="service.html">الخدمات</a> •
+                <a href="buy-service.html">شراء خدمه</a> •
+                <a href="give-account.html">بيع حساب</a> •
+                <a href="index.html"> الرئيسيه </a>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="note">
+                <p>
+                    لشراء احد الحسابات التاليه قم بإدخال البيانات في النموذج الذي بالاسفل ثم قم بتأكيد عملية الشراء؛ سيتم ارسال طلبك للمالك ثم سيقوم بالتواصل معك لإتمام عملية الشراء و تسليمك الحساب الذي قمت بتحديده.
+                </p>
+            </div>
+
+
+            <div class="box">
+                <h3>لا يوجد حسابات الآن</h3>
+            </div>
+
+
+            <form id="buy-account">
+                <label for="FullName"> اسمك بالكامل:</label>
+                <input type="text" id="FullName" name="FullName" required><br><br>
+
+                <label for="Phone"> رقم هاتفك:</label>
+                <input type="number" id="Phone" name="Phone" required><br><br>
+
+                <label for="Account">الحساب المطلوب:</label>
+                <select id="Account" name="Account" required>
+                    <option value="" disabled selected> <--- لا يوجد حسابات ---></option>
+                    </select><br><br>
+
+                    <label for="Payment"> طريقة الدفع:</label>
+                    <select id="Payment" name="Payment" required>
+                        <option value="" disabled selected>--- اخـتـر --- </option>
+
+                        <option value="Visa"> بطاقه بنكيه</option>
+
+                        <option value="E-Wallet"> محفظه إلكترونيه </option>
+                    </select><br><br>
+
+                    <button class="confirm"> تأكيد الشراء </button>
+                </form>
+            </div>
+
+
+            <footer>
+                &copy; 2024 جميع الحقوق محفوظه - Isolo Store
+            </footer>
+        </body>
+        <script src="account.js"></script>
+    </html>

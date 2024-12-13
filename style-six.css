@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "roboto", Monospace;
+}
+
+.head {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+
+}
+
+.header {
+    background: midnightblue;
+    color: white;
+    text-align: center;
+    font-family: "Comic Sans MS", Monospace;
+    font-style: italic;
+    padding: 15px;
+    width: 100%;
+}
+
+.links-slider {
+    background: darkblue;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: red;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: "Trebuchet MS", italic;
+}
+
+.links-slider a {
+    color: white;
+    margin: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.links-slider a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.main-content {
+    color: black;
+    margin: 10px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.main-content h2 {
+    color: cyan;
+    border-bottom: 3px solid cyan;
+    border-left: 3px solid cyan;
+    text-align: center;
+}
+
+.main-content h3 {
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    background: black;
+    border-radius: 10px;
+}
+
+.main-content p {
+    padding-bottom: 80px;
+    color: white; 
+    margin: 10px;
+}
+
+.policy, .terms {
+    padding-bottom: 100px;
+}
+
+footer {
+    padding: 15px;
+    background: black;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
